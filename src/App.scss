@@ -406,12 +406,13 @@ h1 {
 footer {
   background-color: $color-primary-black;
   color: $color-primary-white;
-  min-height: 55vh;
+  min-height: 50vh;
   .navbar {
     padding: 3rem 10rem;
     @include grid();
     gap: calc($gap - 1rem);
     grid-template-columns: 2fr 1fr;
+    align-items: center;
     @media (max-width: 576px) {
       padding: 3rem;
       grid-template-columns: auto;

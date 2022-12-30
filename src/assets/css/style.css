@@ -386,13 +386,14 @@ h1 {
 footer {
   background-color: hsl(0deg, 0%, 0%);
   color: hsl(0deg, 0%, 100%);
-  min-height: 55vh;
+  min-height: 50vh;
 }
 footer .navbar {
   padding: 3rem 10rem;
   display: grid;
   gap: 1rem;
   grid-template-columns: 2fr 1fr;
+  align-items: center;
 }
 @media (max-width: 576px) {
   footer .navbar {
