@@ -6,5 +6,13 @@ This is a solution to the [Loopstudios landing page challenge on Frontend Mentor
 
 ## Overview
 
-ReactJS with Sass
+Built using ReactJS and CSS preprocessor `SASS`
 
+### Library Used
+
+- `ReactJS`
+- `Locomotive Scroll`
+
+### Live Website Link
+
+https://loopstudios20.netlify.app/
