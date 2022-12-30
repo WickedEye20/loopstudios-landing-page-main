@@ -28,41 +28,73 @@ export default function Creation() {
   }
 
   return (
-    <section className="creationSection">
+    <section className="creationSection" data-scroll-section>
       <h1>Our creations</h1>
       <button className="creation_btn">See all</button>
       <div className="creation_content_main">
         <div className="creation_content">
           <img src={images["image-curiosity.jpg"]} alt="" />
-          <span>The<br />curiosity</span>
+          <span>
+            The
+            <br />
+            curiosity
+          </span>
         </div>
         <div className="creation_content">
           <img src={images["image-deep-earth.jpg"]} alt="" />
-          <span>Deep<br />earth</span>
+          <span>
+            Deep
+            <br />
+            earth
+          </span>
         </div>
         <div className="creation_content">
           <img src={images["image-fisheye.jpg"]} alt="" />
-          <span>Make it<br />fisheye</span>
+          <span>
+            Make it
+            <br />
+            fisheye
+          </span>
         </div>
         <div className="creation_content">
           <img src={images["image-from-above.jpg"]} alt="" />
-          <span>From up<br />above VR</span>
+          <span>
+            From up
+            <br />
+            above VR
+          </span>
         </div>
         <div className="creation_content">
           <img src={images["image-grid.jpg"]} alt="" />
-          <span>The<br />grid</span>
+          <span>
+            The
+            <br />
+            grid
+          </span>
         </div>
         <div className="creation_content">
           <img src={images["image-night-arcade.jpg"]} alt="" />
-          <span>Night<br />arcade</span>
+          <span>
+            Night
+            <br />
+            arcade
+          </span>
         </div>
         <div className="creation_content">
           <img src={images["image-pocket-borealis.jpg"]} alt="" />
-          <span>Pocket<br />borealis</span>
+          <span>
+            Pocket
+            <br />
+            borealis
+          </span>
         </div>
         <div className="creation_content">
           <img src={images["image-soccer-team.jpg"]} alt="" />
-          <span>Soccer<br />team VR</span>
+          <span>
+            Soccer
+            <br />
+            team VR
+          </span>
         </div>
       </div>
     </section>

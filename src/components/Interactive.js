@@ -13,7 +13,7 @@ export default function Interactive() {
   }, []);
 
   return (
-    <section className="interactiveSection">
+    <section className="interactiveSection" data-scroll-section>
       <div className="interactive_main flex__class">
         <img
           src={
