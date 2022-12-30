@@ -386,6 +386,7 @@ h1 {
 footer {
   background-color: hsl(0deg, 0%, 0%);
   color: hsl(0deg, 0%, 100%);
+  min-height: 55vh;
 }
 footer .navbar {
   padding: 3rem 10rem;

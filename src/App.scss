@@ -404,9 +404,9 @@ h1 {
 }
 
 footer {
-  // height: 55vh;
   background-color: $color-primary-black;
   color: $color-primary-white;
+  min-height: 55vh;
   .navbar {
     padding: 3rem 10rem;
     @include grid();
