@@ -1,5 +1,4 @@
 import "./assets/css/style.css";
-import "./assets/css/base.css";
 import Creation from "./components/Creation";
 import Footer from "./components/Footer";
 import Interactive from "./components/Interactive";
