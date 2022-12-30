@@ -39,6 +39,8 @@
     ]
   },
   "devDependencies": {
+    "eslint-plugin-react": "^7.31.11",
+    "gsap": "^3.11.4",
     "react-loader-spinner": "^5.3.4",
     "sass": "^1.57.1"
   }

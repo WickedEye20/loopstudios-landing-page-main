@@ -8,13 +8,11 @@ import LocomotiveScroll from "locomotive-scroll";
 import React, { useEffect } from "react";
 
 function App() {
-  // eslint-disable-next-line
   useEffect(() => {
-    const scroll = document.querySelector("#main-container");
+    const scroll = document.querySelector("[data-scroll-container]");
     const loco = new LocomotiveScroll({
       el: scroll,
       smooth: true,
-      multiplier: 1,
     });
   }, []);
 

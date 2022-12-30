@@ -43,7 +43,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -webkit-tap-highlight-color: transparent;
   scroll-behavior: smooth;
-  height: 100%;
 }
 
 // 6. Improve media defaults
@@ -88,6 +87,7 @@ h6 {
 body {
   // background-color: $color-primary-black;
   font-family: $font-body;
+  min-height: 100vh;
 }
 
 .fw-300 {
@@ -240,7 +240,7 @@ body {
   background-image: url(../desktop/image-hero.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 600px;
+  // min-height: 600px;
   background-color: rgba(0, 0, 0, 0.5);
   background-blend-mode: darken;
   @media (max-width: 576px) {
@@ -278,6 +278,7 @@ body {
 
 .interactiveSection {
   padding: 10rem;
+  min-height: 100vh;
   @media (max-width: 576px) {
     padding: 6rem 2rem 2rem 2rem;
   }
@@ -326,6 +327,7 @@ h1 {
 }
 
 .creationSection {
+  min-height: 150vh;
   padding: 0 10rem 10rem 10rem;
   @include grid();
   grid-template-columns: 5fr 1fr;
@@ -402,6 +404,7 @@ h1 {
 }
 
 footer {
+  // height: 55vh;
   background-color: $color-primary-black;
   color: $color-primary-white;
   .navbar {

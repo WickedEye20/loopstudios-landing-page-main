@@ -52,6 +52,7 @@ h6 {
 
 body {
   font-family: "Alata", sans-serif;
+  min-height: 100vh;
 }
 
 .fw-300 {
@@ -200,7 +201,6 @@ body {
   background-image: url(../desktop/image-hero.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 600px;
   background-color: rgba(0, 0, 0, 0.5);
   background-blend-mode: darken;
 }
@@ -242,6 +242,7 @@ body {
 
 .interactiveSection {
   padding: 10rem;
+  min-height: 100vh;
 }
 @media (max-width: 576px) {
   .interactiveSection {
@@ -300,6 +301,7 @@ h1 {
 }
 
 .creationSection {
+  min-height: 150vh;
   padding: 0 10rem 10rem 10rem;
   display: grid;
   grid-template-columns: 5fr 1fr;
