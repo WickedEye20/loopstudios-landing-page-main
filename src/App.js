@@ -4,14 +4,11 @@ import Creation from "./components/Creation";
 import Footer from "./components/Footer";
 import Interactive from "./components/Interactive";
 import Nav from "./components/Nav";
-// import {
-//   LocomotiveScrollProvider,
-//   useLocomotiveScroll,
-// } from "react-locomotive-scroll";
 import LocomotiveScroll from "locomotive-scroll";
 import React, { useEffect } from "react";
 
 function App() {
+  // eslint-disable-next-line
   useEffect(() => {
     const scroll = document.querySelector("#main-container");
     const loco = new LocomotiveScroll({
